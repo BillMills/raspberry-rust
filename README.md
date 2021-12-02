@@ -8,7 +8,7 @@
 On your mac:
 
  - Clone this repo and have a hub.docker.com account and credentials handy.
- - Build the goods inside a container: `docker image build -t <dockerhub username>/rustdemo:rpi`
+ - Build the goods inside a container: `docker image build -t <dockerhub username>/rustdemo:rpi .`
  - Push your container up to dockerhub: `docker image push <dockerhub username>/rustdemo:rpi`
 
 On your rpi0 2w
