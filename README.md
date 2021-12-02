@@ -19,8 +19,8 @@ On your rpi0 2w
 
  - See the Dockerfile for the detailed steps. This hello world example can in principle be replaced with a real application by replacing `Cargo.toml` and the contents of `src` with the guts of your app.
  - Cross-compilation magic is in two places:
-  - The `--target` flag in the `cargo build` step targets the appropriate chip arch
-  - Also don't miss the contents of `config`; this sets the linker correctly for our preferred arch.
+   - The `--target` flag in the `cargo build` step targets the appropriate chip arch
+   - Also don't miss the contents of `config`; this sets the linker correctly for our preferred arch.
 
 ### Props
 
